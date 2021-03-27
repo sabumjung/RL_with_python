@@ -1,29 +1,39 @@
 # Reinforcement Learning Algorithms with Python
 
-This is the code repository for [Reinforcement Learning Algorithms with Python](https://github.com/sabumjung/RL_with_python/), published by Acon.
-
-**Learn, understand, and develop smart algorithms for addressing AI challenges**
+이 코드는 Reinforcement Learning Algorithms with Python 책에 나오는 코드를
+TF2.0으로 변경하여 작성한 내용입니다.
+현재 편집진행중에 있으며 번역본은 출간예정인 내용입니다.
+[Reinforcement Learning Algorithms with Python](https://github.com/sabumjung/RL_with_python/)
 
 ## What is this book about?
-Reinforcement Learning (RL) is a popular and promising branch of AI that involves making smarter models and agents that can automatically determine ideal behavior based on changing requirements. This book will help you master RL algorithms and understand their implementation as you build self-learning agents.
-Starting with an introduction to the tools, libraries, and setup needed to work in the RL environment, this book covers the building blocks of RL and delves into value-based methods, such as the application of Q-learning and SARSA algorithms. You'll learn how to use a combination of Q-learning and neural networks to solve complex problems. Furthermore, you'll study the policy gradient methods, TRPO, and PPO, to improve performance and stability, before moving on to the DDPG and TD3 deterministic algorithms. This book also covers how imitation learning techniques work and how Dagger can teach an agent to drive. You'll discover evolutionary strategies and black-box optimization techniques, and see how they can improve RL algorithms. Finally, you'll get to grips with exploration approaches, such as UCB and UCB1, and develop a meta-algorithm called ESBAS.
-By the end of the book, you'll have worked with key RL algorithms to overcome challenges in real-world applications, and be part of the RL research community.
+
+강화학습(RL)은 인공지능의 인기있고 유망한 분야로  변경되는 요구사항에 대응하여 이상적인 행동을 자동으로 결정하는 에이전트와 스마트한 모델을 만드는 알고리즘이다.
+이 책은 여러분이 강화학습 알고리즘을 마스터하고 자가학습(self-learning)하는 에이전트를 개발할 때 구현방법을 이해할 수 있도록 도와준다.
+
+강화학습에서 작동하는데 필요한 툴, 라이브러리, 설정사항에 대한 소개를 시작으로 하여
+이 책은 강화학습의 빌딩블록을 다루며 Q-러닝과 SARSA알고리즘과 같은 가치기반 방법에 대한 내용을 상세히 다룬다.
+
+여러분은 복잡한 문제를 해결하기 위해 Q러닝과 신경망의 조합을 이용하는 방법을 배우게 될 것이다. 
+게다가 성능과 안정성을 향상시키기 위해 DDPC와 TD3와 같은 결정적인 알고리즘을 학습하기 전에 폴리시 그레디언트 메소드, TRPO, PPO를 학습하게 된다.
+
+또한, 이 책은 모방학습 기술이 작동하는 방법과 Dagger가 에이전트가 작동하도록 가르치는 방법을 다룬다. 
+여러분은 진화학습 전략과 블랙-박스 최적화 기술에 대해서도 배우게 될 것이다. 
+마지막으로 여러분은 UCB와 UCB1과 같은 탐색적 접근을 학습하고, ESBAS와 같은 메타-알고리즘을 학습한다.
+
+이 책의 마지막 챕터에서 여러분은 
+주요 강화학습 알고리즘을 현실에 적용할 때 발생하는 애로사항을 극복하기 위한 방법을 학습하게 될 것이다.
 
 
-This book covers the following exciting features:
-* Develop an agent to play CartPole using the OpenAI Gym interface
-* Discover the model-based reinforcement learning paradigm
-* Solve the Frozen Lake problem with dynamic programming
-* Explore Q-learning and SARSA with a view to playing a taxi game
-* Apply Deep Q-Networks (DQNs) to Atari games using Gym
-* Study policy gradient algorithms, including Actor-Critic and REINFORCE
-* Understand and apply PPO and TRPO in continuous locomotion environments
-* Get to grips with evolution strategies for solving the lunar lander problem
+*여러분이 배우게 될 것
+    1) OpenAI Gym인터페이스를 이용하여 CartPole게임을 하는 에이전트 개발방법
+    2) 모델기반 강화학습 패러다임
+    3) 동적프로그래밍으로 Frozen Lake 문제를 해결하는 방법
+    4) Q러닝과 SARAS를 이용하여 택시게임을 하는 방법
+    5) 딥-Q러닝(DQN)을 이용하여 Atari 게임을 하는 방법
+    6) Actor-Critic와 REINFORCE를 이용하여 폴리시 그레디언트 알고리즘을 학습하는 방법
+    7) PPO와 TRPO를 연속형 로코모션 환경에 사용하는 방법
+    8) 달착륙 문제를 해결하는데 진화전략을 사용하는 방법
 
-If you feel this book is for you, get your [copy](https://www.amazon.com/Reinforcement-Learning-Algorithms-Python-understand/dp/1789131111/) today!
-
-<a href="https://www.packtpub.com/?utm_source=github&utm_medium=banner&utm_campaign=GitHubBanner"><img src="https://raw.githubusercontent.com/PacktPublishing/GitHub/master/GitHub.png" 
-alt="https://www.packtpub.com/" border="5" /></a>
 
 ## Instructions and Navigations
 All of the code is organized into folders. For example, Chapter02.
@@ -57,21 +67,15 @@ With the following software and hardware list you can run all code files present
 | Chapter | Software required | OS required |
 | -------- | ------------------------------------ | ----------------------------------- |
 | All | Python 3.6 or higher | Windows, Mac OS X, and Linux (Any) |
-| All | TensorFlow 1.14 or higher | Windows, Mac OS X, and Linux (Any) |
+| All | TensorFlow 2.x or higher | Windows, Mac OS X, and Linux (Any) |
 
-We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](http://www.packtpub.com/sites/default/files/downloads/9781789131116_ColorImages.pdf).
 
 ### Related products
 * Hands-On Reinforcement Learning with Python [[Packt]](https://www.packtpub.com/big-data-and-business-intelligence/hands-reinforcement-learning-python) [[Amazon]](https://www.amazon.com/Hands-Reinforcement-Learning-Python-reinforcement-ebook/dp/B079Q3WLM4/)
 
 * Python Reinforcement Learning Projects [[Packt]](https://www.packtpub.com/big-data-and-business-intelligence/python-reinforcement-learning-projects) [[Amazon]](https://www.amazon.com/Python-Reinforcement-Learning-Projects-hands-ebook/dp/B07F2S82W3/)
 
-## Get to Know the Author
+
+## 본 원서의 저자에 대한 소개
 **Andrea Lonza** is a deep learning engineer with a great passion for artificial intelligence and a desire to create machines that act intelligently. He has acquired expert knowledge in reinforcement learning, natural language processing, and computer vision through academic and industrial machine learning projects. He has also participated in several Kaggle competitions, achieving high results. He is always looking for compelling challenges and loves to prove himself.
-
-
-
-### Suggestions and Feedback
-[Click here](https://docs.google.com/forms/d/e/1FAIpQLSdy7dATC6QmEL81FIUuymZ0Wy9vH1jHkvpY57OiMeKGqib_Ow/viewform) if you have any feedback or suggestions.
-
 
