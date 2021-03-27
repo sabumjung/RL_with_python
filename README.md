@@ -2,7 +2,7 @@
 
 <a href="https://www.packtpub.com/data/hands-on-reinforcement-learning-algorithms-with-python"><img src="https://www.packtpub.com/media/catalog/product/cache/ecd051e9670bd57df35c8f0b122d8aea/9/7/9781789131116-original.jpeg" alt="Reinforcement Learning Algorithms with Python" height="256px" align="right"></a>
 
-This is the code repository for [Reinforcement Learning Algorithms with Python](https://www.packtpub.com/data/hands-on-reinforcement-learning-algorithms-with-python), published by Packt.
+This is the code repository for [Reinforcement Learning Algorithms with Python](https://github.com/sabumjung/RL_with_python/), published by Acon.
 
 **Learn, understand, and develop smart algorithms for addressing AI challenges**
 
